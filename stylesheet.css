@@ -1,0 +1,78 @@
+body {
+    background-image: url("math.jpg");
+}
+.calculator {
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 40px;
+    width: 350px;
+    border: 3px solid black;
+    background-color: sandybrown;
+}
+
+.calculator-screen {
+    width: 100%;
+    height: 95px;
+    background-color: #f8f8f8;
+    color: #252525;
+    text-align: right;
+    font-size: 40px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.calculator-keys {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    border: 1px solid black;
+    padding-top: 2px;
+}
+
+.button {
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 32px;
+    color: #ffffff;
+    width: 25%;
+    outline: none;
+}
+
+.all-clear, .zero-btn {
+    width: 100%;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+.operator, .equal-sign {
+    background-color: orange;
+    padding: 20px 40px;
+    font-size: 30px;
+}
+
+.number {
+    padding: 20px 31px;
+    font-size: 30px;
+}
+
+.percentage {
+    padding: 20px 26px;
+    font-size: 30px;
+}
+
+.decimal {
+    padding: 20px 35px;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+.operator:hover, .equal-sign:hover {
+    background-color: darkorange;
+}
